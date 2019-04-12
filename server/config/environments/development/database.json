@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "brewhaha-b4884.mongodb.net",
+        "port": 27017,
+        "database": "server",
+        "username": "fdo14",
+        "password": "terrysducks",
+        "srv": true
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
